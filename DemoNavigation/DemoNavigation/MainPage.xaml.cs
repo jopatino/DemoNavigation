@@ -13,5 +13,9 @@ namespace DemoNavigation
 		{
 			InitializeComponent();
 		}
+        public async void SiguienteButton_Clicked(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new Pagina2());
+        }
 	}
 }

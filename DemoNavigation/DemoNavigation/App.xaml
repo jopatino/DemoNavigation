@@ -5,6 +5,21 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="FontSize"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+                <Setter Property="BackgroundColor" Value="BlueViolet"></Setter>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            <Style TargetType ="Label">
+                <Setter Property="FontSize" Value="Large"></Setter>
+                <Setter Property="FontAttributes" Value="Bold,Italic"></Setter>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"></Setter>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+            </Style>
+        </ResourceDictionary>
 
 	</Application.Resources>
 </Application>
